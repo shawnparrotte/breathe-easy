@@ -1,0 +1,62 @@
+body {
+  background-color: #91CCF7;
+}
+
+#breatheBubble {
+  height: 40px;
+  width: 40px;
+  border-radius: 2000px;
+  background-color: #FCA941;
+  box-shadow: 0 0 50px #888;
+  -webkit-transition: height 3s, width 3s, background-color 3s;
+  transition: height 3s, width 3s, background-color 3s;
+  display: flex;
+  justify-content: center;
+}
+
+#bubbleContainer {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+#containmentBar {
+  top: 250px;
+  position: absolute;
+  border: 1px solid black;
+  z-index: 0;
+}
+
+#flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#scrollButton {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: -15px;
+  background-color: white;
+  border-radius: 100px;
+  box-shadow: 0 0 10px #999;
+  z-index: 50;
+}
+
+#text{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#text h1 {
+  color: white;
+  font-family: Arial;
+}
+
+#timeNote {
+  position: absolute;
+  font-family: Arial;
+  color: white;
+}
